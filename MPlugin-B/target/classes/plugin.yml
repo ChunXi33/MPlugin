@@ -1,0 +1,19 @@
+name: MPlugin
+version: '1.0'
+main: chunxi.mplugin.MPlugin
+api-version: '1.20'
+commands:
+  Unarmor:
+    description: "脱下护甲"
+  url:
+    description: "发出一个链接"
+  hfly:
+    description: "扣除饱食度飞行"
+  Mabout:
+    description: "显示MPlugin的相关信息"
+  Mhelp:
+    description: "显示MPlugin的帮助信息和可用命令"
+  mgift:
+    description: "赠送手中物品"
+  Mbeng:
+    description: "你猜(欸嘿)"
