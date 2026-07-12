@@ -43,14 +43,6 @@ public final class MPlugin extends JavaPlugin {
             getCommand("mgift").setExecutor(new mgift());
         }
 
-        int pluginId = 32543;
-        Metrics metrics = new Metrics(this, pluginId);
-
-        // Optional: Add custom charts
-        metrics.addCustomChart(
-                new Metrics.SimplePie("chart_id", () -> "My value")
-        );
-
         Bukkit.getConsoleSender().sendMessage("§e[MPlugin]§a插件已启用!");
         Bukkit.getConsoleSender().sendMessage("§e[MPlugin]§a在游戏内/mhelp显示帮助");
 
